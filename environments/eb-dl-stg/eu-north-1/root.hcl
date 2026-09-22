@@ -18,7 +18,7 @@ provider "aws" {
       Project     = "${local.project}"
       Environment = "${local.environment}"
       ManagedBy   = "Terraform"
-      Owner       = "Elias Bergroth"
+      Repository  = "eb-dl"
     }
   }
 }

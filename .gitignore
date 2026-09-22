@@ -1,1 +1,12 @@
+# Dev stuff
 documentation/
+
+# Terraform
+**/.terraform/*
+!.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terragrunt
+**/.terragrunt-cache/
